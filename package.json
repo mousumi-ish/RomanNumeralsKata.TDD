@@ -1,0 +1,23 @@
+{
+  "name": "RomanNumeralsKata",
+  "version": "1.0.0",
+  "description": "Converting Normal Numbers to Roman numerals",
+  "main": "intToRoman.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mousumi-ish/RomanNumeralsKata.TDD.git"
+  },
+  "keywords": [],
+  "author": "Mousumi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mousumi-ish/RomanNumeralsKata.TDD/issues"
+  },
+  "homepage": "https://github.com/mousumi-ish/RomanNumeralsKata.TDD#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
