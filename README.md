@@ -24,3 +24,17 @@ There is no need to be able to convert numbers larger than about 3000. (The Roma
 
 Part II
 Write a function to convert in the other direction, ie numeral to digit
+
+Getting Started with Roman Numerals Kata:
+first clone the repository with the link, https://github.com/mousumi-ish/RomanNumeralsKata.TDD.git.
+
+command is ,git clone https://github.com/mousumi-ish/RomanNumeralsKata.TDD.git
+
+Prerequisites for running the tests is:
+node current version
+
+Installing dependencies: npm install
+
+Running The Program: node intToRoman.js
+
+Running Tests: npm test
