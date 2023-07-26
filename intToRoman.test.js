@@ -10,12 +10,15 @@ test("0 gives an  string", () => {
   expect(convertToRoman(0)).toBe("Roman did not know about 0");
 });
 test("will return error if the number is greater than 2999", () => {
-  expect(convertToRoman(10870)).toBe("Number is greater than 5000");
+  expect(convertToRoman(10870)).toBe("Number is greater than 5000"); // Arrange/Act/Assert
 });
 test("1 convert to I", () => {
-  expect(convertToRoman(1)).toBe("I");
+  expect(convertToRoman(1)).toBe("I"); // Arrange/Act/Assert
 });
 test("2 convert to I", () => {
-  expect(convertToRoman(2)).toBe("II");
+  expect(convertToRoman(2)).toBe("II"); // Arrange/Act/Assert
 });
 
+test("Number  is converted ", () => {
+  expect(convertToRoman(500)).toBe("D"); // Arrange/Act/Assert
+});
